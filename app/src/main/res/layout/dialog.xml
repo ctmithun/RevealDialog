@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F40BB1"
+    android:orientation="vertical"
+    android:id="@+id/dialogLayout"
+    >
+
+
+    <TextView
+        android:id="@+id/textDialog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="Thanks its working"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/textDialog2"
+        android:layout_gravity="center" />
+
+
+    <TextView
+        android:id="@+id/textDialog2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="This dialog opens with reveal effect"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_above="@+id/buttonDialog"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_gravity="center" />
+
+    <ImageButton
+        android:id="@+id/buttonDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ok_color"
+        android:background="@null"
+        android:adjustViewBounds="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:tint="@android:color/white"
+        />
+
+
+</LinearLayout>
